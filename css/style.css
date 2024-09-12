@@ -209,9 +209,11 @@ h1 {
     font-weight: bold;
 }
 
-span{
+.money{
     margin-left: 15%;
     font-weight: bold;
+    display: inline-block;
+    margin-top: 5%;
 }
 
 p {
@@ -228,16 +230,35 @@ p {
 }
 
 .check {
-    margin-left: 15%;
     margin-top: 5%;
+    display: flex;
+    flex-direction: column; /* Öğeleri alt alta hizalar */
+    gap: 10px;
 }
 
-.check i {
-    margin-bottom: 5%;
-    margin-right: 5%;
+.check .item {
+    display: flex;
+    align-items: center; /* İkon ve yazıyı hizalar */
+    margin-bottom: 10px; /* Her item arasında boşluk */
 }
+
+.check .item i {
+    font-size: 24px;
+    color: #222;
+    margin-left: 15%;
+}
+
+.check .item .text {
+    margin-left: 2%;
+    text-align: start;
+    font-size: 16px;
+    color: #222;
+    font-weight: bold;
+}
+
 
 .add-card-button{
+    margin-top: 5%;
     margin-left: 15%;
     padding: 16px 24px 16px 24px;
     width: 100%;
@@ -279,6 +300,83 @@ p {
     text-align: center;
     font-size: 14px;
     color: #222222;
+}
+
+    /*--------------------------------------------------------------*/
+    /* Card Structure */
+    /*--------------------------------------------------------------*/
+
+.row {
+    margin-top: auto;
+}
+
+.card {
+    border: 1px solid #DADDE2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border: 1px solid #DADDE2;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #222222;
+    position: absolute;
+    gap: 0px;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+.title {
+    font-size: 20px;
+    margin: 20px 0;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: start;
+    margin-left: auto;
+}
+
+hr {
+    background-color: black;
+    border: 1px solid #DADDE2;
+    margin-bottom: 10px;
+    height: 3px;
+}
+
+.view-more {
+    color: #0F1113;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-more a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0F1113;
+}
+
+.view-more i {
+    font-size: 14px;
+    color: #000;
+    margin-right: 72%;
+    cursor: pointer;
 }
 
 
