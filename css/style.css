@@ -133,7 +133,10 @@ body {
 .mr-100 { margin-right: 100px; }
 
 
-/* swipper slider */
+/*--------------------------------------------------------------*/
+/* Product detail swipper slider */
+/*--------------------------------------------------------------*/
+
 
 .swiper {
     width: 100%;
@@ -176,16 +179,114 @@ body {
 }
 
 
+/*--------------------------------------------------------------*/
+/* Star End */
+/*--------------------------------------------------------------*/
+
 
 .star {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 6px;
 }
+
+/*--------------------------------------------------------------*/
+/* Product detail */
+/*--------------------------------------------------------------*/
 
 p {
     margin: 0;
 }
+
+h1 {
+    margin-left: 15%;
+    font-weight: bold;
+}
+
+.star {
+    margin-top: 2%;
+    margin-left: 15%;
+    font-weight: bold;
+}
+
+span{
+    margin-left: 15%;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 5%;
+    margin-left: 15%;
+    font-weight: bold;
+    width: 100%;
+}
+
+.advantages h5 {
+    margin-left: 15%;
+    margin-top: 8%;
+    font-weight: bold;
+}
+
+.check {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.check i {
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.add-card-button{
+    margin-left: 15%;
+    padding: 16px 24px 16px 24px;
+    width: 100%;
+    background-color: black;
+    gap: 8px;
+    border: 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.add-card-button a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.buy-now-button {
+    margin: 2%;
+    margin-left: 15%;
+    padding: 16px 24px 16px 24px;
+    width: 100%;
+    background-color: white;
+    gap: 8px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.buy-now-button a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.product-button p {
+    text-align: center;
+    font-size: 14px;
+    color: #222222;
+}
+
+
+
+
+
+
+
 
 
 
