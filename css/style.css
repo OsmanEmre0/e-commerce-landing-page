@@ -194,62 +194,53 @@ body {
 /* Product detail */
 /*--------------------------------------------------------------*/
 
-p {
-    margin: 0;
+.product-Information {
+    padding: 60px 0px 0px 60px;
 }
 
 h1 {
-    margin-left: 15%;
+    padding: 10px 0 10px 0;
     font-weight: bold;
 }
 
-.star {
-    margin-top: 2%;
-    margin-left: 15%;
+.star em {
     font-weight: bold;
 }
 
-.money{
-    margin-left: 15%;
+.money h1{
+    padding: 15px 0 15px 0;
     font-weight: bold;
     display: inline-block;
-    margin-top: 5%;
+
 }
 
 p {
-    margin-top: 5%;
-    margin-left: 15%;
+    padding: 10px 0 10px 0;
     font-weight: bold;
-    width: 100%;
-}
-
-.advantages h5 {
-    margin-left: 15%;
-    margin-top: 8%;
-    font-weight: bold;
+    max-width: max-content;
 }
 
 .check {
-    margin-top: 5%;
+    padding: 15px 0px 15px 0px;
     display: flex;
-    flex-direction: column; /* Öğeleri alt alta hizalar */
+    flex-direction: column;
     gap: 10px;
 }
 
 .check .item {
     display: flex;
-    align-items: center; /* İkon ve yazıyı hizalar */
-    margin-bottom: 10px; /* Her item arasında boşluk */
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .check .item i {
     font-size: 24px;
     color: #222;
-    margin-left: 15%;
+
 }
 
 .check .item .text {
-    margin-left: 2%;
+    margin-left: 10px;
     text-align: start;
     font-size: 16px;
     color: #222;
@@ -258,64 +249,74 @@ p {
 
 
 .add-card-button{
-    margin-top: 5%;
-    margin-left: 15%;
-    padding: 16px 24px 16px 24px;
-    width: 100%;
+    margin-top: 10px;
+    padding: 14px 24px 14px 24px;
+    display: inline-block;
+    width: 635px;
+    height: 48px;
     background-color: black;
-    gap: 8px;
     border: 1px;
     border-radius: 8px;
-    cursor: pointer;
     text-align: center;
+    text-decoration: none;
+    color: #fff;
 }
 
-.add-card-button a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-}
+
 
 .buy-now-button {
-    margin: 2%;
-    margin-left: 15%;
-    padding: 16px 24px 16px 24px;
-    width: 100%;
+    margin-top: 15px;
+    padding: 14px 24px 14px 24px;
+    display: inline-block;
+    width: 635px;
+    height: 48px;
     background-color: white;
-    gap: 8px;
     border: 1px solid #D0D5DD;
     border-radius: 8px;
-    cursor: pointer;
     text-align: center;
-}
-
-.buy-now-button a {
-    color: black;
-    font-weight: bold;
     text-decoration: none;
+    color: #222;
 }
 
 
 .product-button p {
-    text-align: center;
+    margin-left: 35%;
+    padding: 15px 0 0 0;
     font-size: 14px;
     color: #222222;
 }
 
-    /*--------------------------------------------------------------*/
-    /* Card Structure */
-    /*--------------------------------------------------------------*/
 
-.row {
+/*--------------------------------------------------------------*/
+/* Card Structure */
+/*--------------------------------------------------------------*/
+
+
+.row-card {
     margin-top: auto;
 }
+
+.structure {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.structure .col-md-4 {
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
 
 .card {
     border: 1px solid #DADDE2;
     border-radius: 10px;
-    padding: 20px;
+    display: inline-block;
+    padding: 30px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
+    max-width: 400px;
 }
 
 .icon {
@@ -330,11 +331,10 @@ p {
     font-size: 24px;
     color: #222222;
     position: absolute;
-    gap: 0px;
 }
 
 .content {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .title {
@@ -353,14 +353,13 @@ p {
 }
 
 hr {
-    background-color: black;
+    background-color: #000;
     border: 1px solid #DADDE2;
-    margin-bottom: 10px;
     height: 3px;
 }
 
 .view-more {
-    color: #0F1113;
+    color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -369,7 +368,7 @@ hr {
 .view-more a {
     text-decoration: none;
     font-weight: bold;
-    color: #0F1113;
+    color: #000;
 }
 
 .view-more i {
