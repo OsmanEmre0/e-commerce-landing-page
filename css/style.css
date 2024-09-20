@@ -419,7 +419,7 @@ hr {
 
 .swiper-wrapper {
     display: flex;
-    align-items: flex-start; /* Kartları üstte hizalar */
+    align-items: flex-start;
 }
 
 .swiper-slide {
@@ -594,17 +594,72 @@ hr {
 .intermediate-image img {
     width: 100%;
     height: auto;
-    padding: 20px 0 5px 0;
     border-radius: 12px;
 }
 
 
 
+/*--------------------------------------------------------------*/
+/* Category */
+/*--------------------------------------------------------------*/
 
+.Category {
+    width: 100%;
+    height: auto;
+    border: 1px solid #DADDE2;
+    margin-top: 100px;
+    border-radius: 12px;
+}
 
+.Category-title h1 {
+    font-size: 32px;
+    line-height: 35px;
+    padding: 40px 0 20px 38px;
+}
 
+.Category-img {
+    padding: 0 40px 0 40px ;
+}
 
+.Category-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
 
+.Category-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 0 40px;
+}
+
+.Category-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.collection {
+    font-size: 12px;
+    color: #748492;
+    line-height: 12px;
+    margin-bottom: 5px;
+}
+
+.discover {
+    font-size: 14px;
+    color: #000;
+}
+
+.Category-arrow {
+    margin-left: auto;
+}
+
+.Category-arrow i {
+    font-size: 18px;
+    color: #000;
+    cursor: pointer;
+}
 
 
 
