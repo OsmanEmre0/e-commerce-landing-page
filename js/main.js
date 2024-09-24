@@ -24,9 +24,17 @@ var swiper = new Swiper('.card-container', {
         prevEl: '.custom-swiper-prev',
     },
     breakpoints: {
-        670: {
+        320: {
             slidesPerView: 1,
             spaceBetween: 8,
+        },
+        575: {
+            slidesPerView: 1,
+            spaceBetween: 8,
+        },
+        576: {
+            slidesPerView: 2, // 576px ile 767px arasında 2 slide
+            spaceBetween: 10,
         },
         768: {
             slidesPerView: 2,

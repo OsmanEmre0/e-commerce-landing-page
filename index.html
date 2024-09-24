@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Icon Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
@@ -19,8 +20,8 @@
     <section class="pt-50 pb-50">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="slider ">
+                <div class="col-md-6 responsive-swiper-slider">
+                    <div class="slider">
                         <div class="swiper mySwiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -65,7 +66,7 @@
                 </div>
 
                 <div class="product-Information col-md-6 pt-50">
-                    <h1>Product Name</h1>
+                    <h1 class="product-title">Product Name</h1>
                     <div class="star">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -75,8 +76,8 @@
                         <em>(4.9 stars) &#9679; 234 reviews</em>
                     </div>
 
-                    <span class="money">
-                        <h1>$69</h1>
+                    <span class="price">
+                        $69
                     </span>
 
                     <p class="product-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,
@@ -114,11 +115,11 @@
 
     <!--  Card Structure  -->
 
-    <section>
+    <section class="pt-50 pb-50">
         <div class="container">
             <div class="row-card">
                 <div class="structure col-md-12">
-                    <div class="col-md-4">
+                    <div class="col-md-4 responsive-card">
                         <div class="card">
                             <div class="icon">
                                 <i class="fa-sharp fa-solid fa-bolt"></i>
@@ -134,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 responsive-card">
                         <div class="card">
                             <div class="icon">
                                 <i class="fa-sharp fa-solid fa-bolt"></i>
@@ -150,7 +151,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 responsive-card">
                         <div class="card">
                             <div class="icon">
                                 <i class="fa-sharp fa-solid fa-bolt"></i>
@@ -173,15 +174,15 @@
 
     <!--  Slider Card  -->
 
-   <section>
+   <section class="pt-50 pb-50">
        <div class="container">
            <div class="row section-header">
-               <div class="col-md-6">
-                   <h1 class="section-title">Products</h1>
-                   <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, ut.</p>
-               </div>
+               <div class="col-md-12 section-content">
+                   <h1>Products</h1>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, ut.</p>
                <div class="col-md-6 d-flex align-items-center justify-content-end">
                    <a href="#" class="view-all-btn">View All</a>
+               </div>
                </div>
            </div>
 
@@ -286,7 +287,7 @@
     <!-- Customer reviews -->
 
 
-    <section>
+    <section class="pt-50 pb-50">
         <div class="container">
 
             <div class="text-center mb-5">
@@ -426,7 +427,7 @@
 
     <!-- Category -->
 
-    <section>
+    <section class="pt-50 pb-50">
         <div class="container">
             <div class="row">
 
