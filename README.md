@@ -1,0 +1,1 @@
+Kendimi geliştirmek amacıyla bir e-ticaret ürün detay sayfası tasarladım. Bu projede çeşitli JavaScript kütüphaneleri kullandım ve farklı cihazlarda kullanıcı deneyimini iyileştirmek için responsive tasarıma özen gösterdim.
